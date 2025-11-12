@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# Logs and temp files
+logs/
+tmp/
+*.log
+*.pid
+
+# Airflow local files
+airflow.cfg
+airflow.db
+
+# Docker environment
+.env
+docker-compose.override.yml
+
+# IDE / editor folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
