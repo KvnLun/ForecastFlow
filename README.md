@@ -320,13 +320,14 @@ def cleanup_old_forecasts(**context):
 
 ## 📈 Future Enhancements
 
-- [ ] Add data visualization dashboard (Grafana/Superset)
+- [ ] Add front end interface to display weather conditions
+- [ ] Add ability for users to select which cities are parsed and displayed
 - [ ] Implement data quality checks
 - [ ] Add email/Slack notifications on failures
 - [ ] Store raw API responses for audit trail
 - [ ] Add more cities dynamically from database
 - [ ] Implement incremental updates instead of full refresh
-- [ ] Add weather alerts based on thresholds
+- [ ] Add connection using REST API to get data from Postgres DB
 - [ ] Create analytics views for trend analysis
 
 ## 🤝 Contributing
